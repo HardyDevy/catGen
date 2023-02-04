@@ -93,7 +93,7 @@ const dataText = [
         "text": "maybe the fbi and cia are just misunderstood and actually cool guys"
     },
     {
-        "text": "iphone is actually better than android because of many things that you are probably not smart enough to understand"
+        "text": "iphone is actually better than android but you are not smart enough to understand why"
     },
     {
         "text": "press the button i want to go back home"

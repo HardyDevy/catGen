@@ -93,6 +93,60 @@ const dataText = [
         "text": "maybe the fbi and cia are just misunderstood and actually cool guys"
     },
     {
+        "text": "iphone is actually better than android because of many things that you are probably not smart enough to understand"
+    },
+    {
+        "text": "press the button i want to go back home"
+    },
+    {
+        "text": "my grandma went to the hospital yesterday"
+    },
+    {
+        "text": "im going to daycare today"
+    },
+    {
+        "text": "the iphone came out in 2007"
+    },
+    {
+        "text": "my dad owns nintendo"
+    },
+    {
+        "text": "my favorite dinosaur is the velociraptor"
+    },
+    {
+        "text": "i don't have netflix anymore it's too expensive"
+    },
+    {
+        "text": "everyone should love each other <3"
+    },
+    {
+        "text": "banana"
+    },
+    {
+        "text": "my friend is a dog"
+    },
+    {
+        "text": "i like crunchy cookies more than chewy cookies"
+    },
+    {
+        "text": "cucumber"
+    },
+    {
+        "text": "have you ever played Bloons Tower Defense 6"
+    },
+    {
+        "text": "they should make minecraft but with spheres"
+    },
+    {
+        "text": "Arsenal are gonna win the premier league"
+    },
+    {
+        "text": "Speling iS hard"
+    },
+    {
+        "text": "sometimes teslas just crash into people and thats not good"
+    },
+    {
         "text": "Please defund the police."
     }
 ]

@@ -147,6 +147,15 @@ const dataText = [
         "text": "sometimes teslas just crash into people and thats not good"
     },
     {
+        "text": "i love men"
+    },
+    {
+        "text": "i have so many skeletons in my closet"
+    },
+    {
+        "text": ""
+    },
+    {
         "text": "Please defund the police."
     }
 ]

@@ -3,7 +3,7 @@ const dataText = [
         "text": "Damn all the jellyfish"
     },
     {
-        "text": "i do the opposite of gatekeeping. you will be forced to like my interests. you will listen"
+        "text": "i do the opposite of gatekeeping. you will be forced to like my interests."
     },
     {
         "text": "im so proud of you"
@@ -91,9 +91,6 @@ const dataText = [
     },
     {
         "text": "maybe the fbi and cia are just misunderstood and actually cool guys"
-    },
-    {
-        "text": "iphone is actually better than android but you are not smart enough to understand why"
     },
     {
         "text": "press the button i want to go back home"

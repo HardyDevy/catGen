@@ -12,7 +12,7 @@ const dataText = [
         "text": "I'm moving to Las Vegas."
     },
     {
-        "text": "please stop leaving me on read. we are soul mates and you are missing out on really fun conversations"
+        "text": "please stop leaving me on read."
     },
     {
         "text": "wawawa wawawawawoo"
@@ -153,7 +153,7 @@ const dataText = [
         "text": "i have so many skeletons in my closet"
     },
     {
-        "text": ""
+        "text": "no comment."
     },
     {
         "text": "Please defund the police."

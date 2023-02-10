@@ -1,19 +1,40 @@
 body {
-    background-image:url("../img/catpaws.jpg");
+    /* background-image:url("../img/catpaws.jpg"); */
+    background-color: cornflowerblue;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: large;
 }
 
 main {
-    align-items: center;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin: 4rem;
 }
 
+section.top {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+section.bottom {
+    min-height: 25rem;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin: 5%;
+    display: grid;
+    grid-gap: 2rem;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+    background-color:darkolivegreen ;
+    border-radius: 20px;
+  }
+
 .qp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #faebd7;
     border-radius: 20px;
     padding: 1.5rem;
@@ -25,14 +46,13 @@ main {
     max-width: 20rem;
     min-height: 4rem;
     margin: 0;
-    padding-bottom: 1rem;
 }
 
 button {
     background-color: pink;
     border-radius: 10px;
     border:none;
-    margin: 2rem;
+    margin: 1rem 2rem 0rem 2rem;
     padding: 1rem 2rem;
 }
 

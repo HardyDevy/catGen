@@ -13,8 +13,8 @@ main {
 }
 
 img {
-    height: 20rem !important;
-    width: 20rem !important;
+    height: 20rem ;
+    width: 20rem ;
 }
 
 h1 {
@@ -117,5 +117,13 @@ button.circle:hover {
 @media only screen and (max-width: 720px) {
 section.bottom {
     padding: 1rem;
+    
+}
+.bottomgrid{
+    grid-template-columns: auto;
+}
+img{
+    height: 15rem;
+    width: 15rem;
 }
 }

@@ -1,10 +1,11 @@
 body {
+    background-color: rgb(105, 215, 255);
     background-image:url("../img/2210.jpg");
     background-size:115rem;
     background-position: top;
-    /* background-color: cornflowerblue; */
+
     font-family: bd-supper, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -20,9 +21,32 @@ img {
 h1 {
     font-size: 2rem;
 }
+.topheader{
+    background-color: rgb(246, 250, 254);
+    padding: .5rem;
+    padding-top: .75rem;
+    margin-top: 0;
+    border-radius: 10px;
+
+}
 .housetext {
 color: aliceblue;
 margin-top: 0;
+}
+
+.selecter {
+    text-align: center;
+    background-color: pink;
+    border:none;
+    border-radius: 10px;
+    padding: 1rem 8rem;
+    font-family: "bd-supper", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    cursor:pointer;
+}
+.selecter::after{
+    background-color: rgb(226, 159, 170);
 }
 
 
@@ -125,5 +149,8 @@ section.bottom {
 img{
     height: 15rem;
     width: 15rem;
+}
+.selecter {
+    padding: 1rem 5rem;
 }
 }

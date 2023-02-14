@@ -1,16 +1,30 @@
-
     let button1 = document.getElementById('newCat');
-    button1.addEventListener('click', () => {
-        
-        let i = Math.floor(Math.random() * dataText.length);
-        let quote = document.querySelector('blockquote');
-        quote.innerText = dataText[i].text;
+  button1.addEventListener('click', () => {
+      
+      // let i = Math.floor(Math.random() * dataText.length);
+      // let quote = document.querySelector('blockquote');
+      // quote.innerText = dataText[i].text;
+      
+      let quote = document.querySelector('blockquote');
+      quote.innerText = getCatText();
 
-        let i2 = Math.floor(Math.random() * dataImg.length);
-        let img = document.querySelector('img');
-        img.src = 'img/Pictures of Cats/' + dataImg[i2].img;
+      let i2 = Math.floor(Math.random() * dataImg.length);
+      let img = document.querySelector('img');
+      img.src = 'img/Pictures of Cats/' + dataImg[i2].img;
+  });
 
-    });
+  function getCatText() {
+    const seed = Math.random();
+    let selected = document.getElementById('select').value;
+    const filteredData = dataText.filter(quote => quote.tag === selected);
+    if (selected != 'All') {
+      const i = (Math.floor(seed * filteredData.length));
+      return filteredData[i].text;
+    } else {
+      const i = (Math.floor(seed * dataText.length));
+      return dataText[i].text;
+    }
+  };
 
 function saveCat() {
     let savedImg = document.getElementById('newcat').src;
@@ -39,4 +53,4 @@ function saveCat() {
   }
 
   let button2 = document.getElementById('saveCat');
-  button2.addEventListener('click', () => {  displayCat();  });
+  button2.addEventListener('click', () => {  displayCat(); });

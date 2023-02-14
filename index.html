@@ -6,6 +6,7 @@
     <title>CatGenerator</title>
     <link rel="stylesheet" href="https://use.typekit.net/emz3evy.css">
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css">
+    <link rel="stylesheet" href="styles/min.css">
     <link rel="stylesheet" href="styles/style.css">
     
   </head>
@@ -16,7 +17,7 @@
         <p></p>
         <p></p>
         <div>
-          <h1>The Cat Generator!</h1>
+          <h1 class="topheader">The Cat Generator!</h1>
           <div class="qp">
             <img id="newcat" src="img/Pictures of Cats/cat1.jpeg" alt="cat" />
             <blockquote class="quote" id="newquote">This is a cool cat</blockquote>
@@ -25,6 +26,16 @@
             <button id="newCat"><nobr>New Cat!</nobr></button>
             <button id="saveCat"><nobr>Save Cat!</nobr></button>
           </div>
+          
+            <select name="menu" id="select" class="selecter">
+              <option value="All">Cat Type: All</option>
+              <option value="positive">Cat Type: Positives</option>
+              <option value="insults">Cat Type: Insults</option>
+              <option value="kittyfacts">Cat Type: Facts</option>
+              <option value="opinions">Cat Type: Opinions</option>
+              <option value="please">Cat Type: Please</option>
+              <option value="sounds">Cat Type: Sounds</option>
+            </select>
         </div>
       </section>
 

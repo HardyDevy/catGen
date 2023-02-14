@@ -1,159 +1,323 @@
 const dataText = [
     {
-        "text": "Damn all the jellyfish"
+        "text": "Damn all the jellyfish",
+        "tag": "opinions"
     },
     {
-        "text": "i do the opposite of gatekeeping. you will be forced to like my interests."
+        "text": "i do the opposite of gatekeeping. you will be forced to like my interests.",
+        "tag": "kittyfacts"
     },
     {
-        "text": "im so proud of you"
+        "text": "im so proud of you",
+        "tag": "postive"
     },
     {
-        "text": "I'm moving to Las Vegas."
+        "text": "I'm moving to Las Vegas.",
+        "tag": "kittyfacts"
     },
     {
-        "text": "please stop leaving me on read."
+        "text": "please stop leaving me on read.",
+        "tag": "please"
     },
     {
-        "text": "wawawa wawawawawoo"
+        "text": "u stupid",
+        "tag": "insults"
     },
     {
-        "text": "meow"
+        "text": "u rly still play candy crush...",
+        "tag": "insults"
     },
     {
-        "text": "I wonder what Mona Lisa was thinking about while she was painted"
+        "text": "gamer (derogatory)",
+        "tag": "insults"
     },
     {
-        "text": " *fist bump* "
+        "text": "wawawa wawawawawoo",
+        "tag": "sounds"
     },
     {
-        "text": "im a super villain"
+        "text": "meow",
+        "tag": "sounds"
     },
     {
-        "text": "good morning i hope ur day is good"
+        "text": "I could paint the Mona Lisa in an hour",
+        "tag": "kittyfacts"
     },
     {
-        "text": "they should make cigarettes without the cancer i think"
+        "text": "*fist bump*",
+        "tag": "postive"
     },
     {
-        "text": "rush hour > pulp fiction"
+        "text": "im a super villain",
+        "tag": "kittyfacts"
     },
     {
-        "text": "i missed groundhogs day"
+        "text": "good morning i hope ur day is good",
+        "tag": "postive"
     },
     {
-        "text": "litter box broke"
+        "text": "they should make cigarettes without the cancer i think",
+        "tag": "opinions"
     },
     {
-        "text": "gotta do my taxes"
+        "text": "rush hour > pulp fiction",
+        "tag": "kittyfacts"
     },
     {
-        "text": "business, business, business, numbers, numbers.."
+        "text": "i missed groundhogs day",
+        "tag": "kittyfacts"
     },
     {
-        "text": "I'm italian"
+        "text": "my litter box broke",
+        "tag": "kittyfacts"
     },
     {
-        "text": "I've never seen an epsiode of the simpsons"
+        "text": "all the numbers are going down!",
+        "tag": "business"
     },
     {
-        "text": "It's Franky Friday! (My name is Franky)"
+        "text": "me and my partner are going bankrupt",
+        "tag": "business"
     },
     {
-        "text": "ummm... ok"
+        "text": "i took a loan and they never asked for the money back",
+        "tag": "business"
     },
     {
-        "text": "pineapple pizza >>>>>>>>"
+        "text": "business, business, business, numbers, numbers..",
+        "tag": "business"
     },
     {
-        "text": "i cannot afford a PS5"
+        "text": "I'm italian",
+        "tag": "kittyfacts"
     },
     {
-        "text": "bring back among us"
+        "text": "I've never seen an epsiode of the simpsons",
+        "tag": "kittyfacts"
     },
     {
-        "text": "i love ice cubes"
+        "text": "It's Franky Friday! (My name is Franky)",
+        "tag": "kittyfacts"
     },
     {
-        "text": "what is wrong with you"
+        "text": "ummm... ok",
+        "tag": "insults"
     },
     {
-        "text": "im perfect"
+        "text": "pineapple pizza >>>>>>>>",
+        "tag": "opinions"
     },
     {
-        "text": "i ball hard"
+        "text": "i cannot afford a PS5",
+        "tag": "kittyfacts"
     },
     {
-        "text": "im gonna be the next kevin hart"
+        "text": "make among us great again!",
+        "tag": "opinions"
     },
     {
-        "text": "arrggghh (im a pirate)"
+        "text": "i love ice cubes",
+        "tag": "opinions"
     },
     {
-        "text": "maybe the fbi and cia are just misunderstood and actually cool guys"
+        "text": "what is wrong with you",
+        "tag": "insults"
     },
     {
-        "text": "press the button i want to go back home"
+        "text": "im perfect",
+        "tag": "kittyfacts"
     },
     {
-        "text": "my grandma went to the hospital yesterday"
+        "text": "i ball hard",
+        "tag": "kittyfacts"
     },
     {
-        "text": "im going to daycare today"
+        "text": "im gonna be the next kevin hart",
+        "tag": "kittyfacts"
     },
     {
-        "text": "the iphone came out in 2007"
+        "text": "arrggghh (im a pirate)",
+        "tag": "sounds"
     },
     {
-        "text": "my dad owns nintendo"
+        "text": "maybe the fbi and cia are just misunderstood and actually cool guys",
+        "tag": "opinions"
     },
     {
-        "text": "my favorite dinosaur is the velociraptor"
+        "text": "please press the save button i want to go back home",
+        "tag": "please"
     },
     {
-        "text": "i don't have netflix anymore it's too expensive"
+        "text": "my grandma went to the hospital yesterday",
+        "tag": "kittyfacts"
     },
     {
-        "text": "everyone should love each other <3"
+        "text": "im going to daycare today",
+        "tag": "kittyfacts"
     },
     {
-        "text": "banana"
+        "text": "the iphone came out in 2007",
+        "tag": "kittyfacts"
     },
     {
-        "text": "my friend is a dog"
+        "text": "my dad owns nintendo",
+        "tag": "kittyfacts"
     },
     {
-        "text": "i like crunchy cookies more than chewy cookies"
+        "text": "my favorite dinosaur is the velociraptor",
+        "tag": "opinions"
     },
     {
-        "text": "cucumber"
+        "text": "i don't have netflix anymore it's too expensive",
+        "tag": "kittyfacts"
     },
     {
-        "text": "have you ever played Bloons Tower Defense 6"
+        "text": "everyone should love each other <3",
+        "tag": "postive"
     },
     {
-        "text": "they should make minecraft but with spheres"
+        "text": "banana",
+        "tag": "sounds"
     },
     {
-        "text": "Arsenal are gonna win the premier league"
+        "text": "my friend is a dog",
+        "tag": "kittyfacts"
     },
     {
-        "text": "Speling iS hard"
+        "text": "i like crunchy cookies more than chewy cookies",
+        "tag": "opinions"
     },
     {
-        "text": "sometimes teslas just crash into people and thats not good"
+        "text": "cucumber",
+        "tag": "sounds"
     },
     {
-        "text": "i love men"
+        "text": "have you seriously never played Bloons Tower Defense 6 before",
+        "tag": "insults"
     },
     {
-        "text": "i have so many skeletons in my closet"
+        "text": "they should make minecraft but with spheres",
+        "tag": "opinions"
     },
     {
-        "text": "no comment."
+        "text": "Arsenal are gonna win the premier league",
+        "tag": "opinions"
     },
     {
-        "text": "Please defund the police."
+        "text": "Speling iS hard",
+        "tag": "opinions"
+    },
+    {
+        "text": "sometimes teslas just crash into people and thats not good",
+        "tag": "opinions"
+    },
+    {
+        "text": "i love men",
+        "tag": "kittyfacts"
+    },
+    {
+        "text": "i have so many skeletons in my closet",
+        "tag": "kittyfacts"
+    },
+    {
+        "text": "i HATE you!!!! >:(",
+        "tag": "insults"
+    },
+    {
+        "text": "you smell.. like bad",
+        "tag": "insults"
+    },
+    {
+        "text": "no comment.",
+        "tag": "insults"
+    },
+    {
+        "text": "I love you!",
+        "tag": "positive"
+    },
+    {
+        "text": "<3",
+        "tag": "positive"
+    },
+    {
+        "text": "cats are AWESOME!!!",
+        "tag": "positive"
+    },
+    {
+        "text": "my mom gave me a lollipop",
+        "tag": "positive"
+    },
+    {
+        "text": "i cant wait for my favoritve youtuber to upload!",
+        "tag": "positive"
+    },
+    {
+        "text": "my friend gave me valentines day candy!",
+        "tag": "positive"
+    },
+    {
+        "text": "i love being a cat!",
+        "tag": "positive"
+    },
+    {
+        "text": "think positive thoughts",
+        "tag": "positive"
+    },
+    {
+        "text": "the new spiderman movie is gonna be great!",
+        "tag": "positive"
+    },
+    {
+        "text": ":)",
+        "tag": "positive"
+    },
+    {
+        "text": "im graduating in december!",
+        "tag": "positive"
+    },
+    {
+        "text": "i passed my driver's test!",
+        "tag": "positive"
+    },
+    {
+        "text": "i ordered fries and they gave me an onion ring!",
+        "tag": "positive"
+    },
+    {
+        "text": "please refil my water",
+        "tag": "please"
+    },
+    {
+        "text": "please play that song that goes 'Beep bop boop beeo bop'",
+        "tag": "please"
+    },
+    {
+        "text": "please be smarter",
+        "tag": "please"
+    },
+    {
+        "text": "please play volleyball with me later, it starts at eight",
+        "tag": "please"
+    },
+    {
+        "text": "please explain to me why i can't have a hard seltzer at 11am",
+        "tag": "please"
+    },
+    {
+        "text": "please write my essay for me i'm not good at english",
+        "tag": "please"
+    },
+    {
+        "text": "please put on the big game",
+        "tag": "please"
+    },
+    {
+        "text": "please stop doing that thing you always do",
+        "tag": "please"
+    },
+    {
+        "text": "Please defund the police.",
+        "tag": "please"
     }
 ]
 

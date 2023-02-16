@@ -110,6 +110,12 @@ section.bottom {
     grid-template-columns: 2fr 1fr;
 }
 
+option {
+    font-family: "bd-supper", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 button {
     background-color: pink;
     border-radius: 10px;

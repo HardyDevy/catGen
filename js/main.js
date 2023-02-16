@@ -1,4 +1,4 @@
-    let button1 = document.getElementById('newCat');
+  let button1 = document.getElementById('newCat');
   button1.addEventListener('click', () => {
       
       // let i = Math.floor(Math.random() * dataText.length);
